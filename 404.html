@@ -3,17 +3,6 @@
   <title>GlitterWare - Page not found</title>
 </head>
 <body>
-  <h1 id="404msg">Page not found</h1>
+  <h1 id="404msg"><a href="https://glitterware.github.io">Page not found. Did you mean https://glitterware.github.io?</a></h1>
 </body>
-<script type="text/javascript">
-  var _location = window.location.toString().toLowerCase();
-  if (_location == 'https://glitterware.github.io/passy') {
-    _msg.innerHTML = '<a href="https://glitterware.github.io/Passy">You are being redirected to https://glitterware.github.io/Passy</a>';
-    window.location='https://glitterware.github.io/Passy';
-  }
-  else {
-    const _msg = document.getElementById('404msg');
-    _msg.innerHTML = `<a href="https://glitterware.github.io">Page ${_location} does not exist. Did you mean https://glitterware.github.io?</a>`;
-  }
-</script>
 </html>
