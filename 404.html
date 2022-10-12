@@ -1,15 +1,16 @@
 <html>
 <head>
-<script type="text/javascript">
-  var _location = window.location.toLowerCase();
-  if (_location == 'https://glitterware.github.io/passy') window.location='https://glitterware.github.io/Passy';
-  else {
-    const _msg = document.getElementById('404msg');
-    _msg.innerHTML = `Page ${_location} does not exist. Did you mean https://glitterware.github.io?`;
-  }
-</script>
+  <title>GlitterWare</title>
 </head>
 <body>
-<h1><a id="404msg" href="https://glitterware.github.io/Passy">You are being redirected to https://glitterware.github.io/Passy</a></h1>
+  <h1 id="404msgid="404msg""><a href="https://glitterware.github.io/Passy">You are being redirected to https://glitterware.github.io/Passy</a></h1>
+  <script type="text/javascript">
+    var _location = window.location.toString().toLowerCase();
+    if (_location == 'https://glitterware.github.io/passy') window.location='https://glitterware.github.io/Passy';
+    else {
+      const _msg = document.getElementById('404msg');
+      _msg.innerHTML = `<a href="https://glitterware.github.io">Page ${_location} does not exist. Did you mean https://glitterware.github.io?</a>`;
+    }
+  </script>
 </body>
 </html>
