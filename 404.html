@@ -1,8 +1,21 @@
 <html>
 <head>
   <title>GlitterWare - Page not found</title>
+  <script type="text/javascript">
+    window.location="https://glitterware.github.io/Passy";
+  </script>
 </head>
 <body>
   <h1 id="404msg"><a href="https://glitterware.github.io">Page does not exist. Did you mean https://glitterware.github.io?</a></h1>
 </body>
+<script type="text/javascript">
+  var _location = window.location.toString().toLowerCase();
+  const _msg = document.getElementById('404msg');
+  if (_location.includes('passy')) {
+    _msg.innerHTML = '<a href="https://glitterware.github.io/Passy">You are being redirected to https://glitterware.github.io/Passy</a>';
+    window.location='https://glitterware.github.io/Passy';
+  }
+  _msg.innerHTML = `<a href="https://glitterware.github.io">Page ${_location} does not exist. Did you mean https://glitterware.github.io?</a>`;
+  }
+</script>
 </html>
