@@ -39,7 +39,7 @@ body {
 .gw-top-navbar > .header > a {
   display: inline-flex;
   height: 100%;
-  width: 33%;
+  width: 100px;
   margin: auto;
 }
 
