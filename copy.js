@@ -1,4 +1,4 @@
-var GW_EMAIL = 'glitteware@proton.me';
+var GW_EMAIL = 'glitterware@proton.me';
 
 function copyGwEmail() {
   navigator.clipboard.writeText(GW_EMAIL).then(function() {
