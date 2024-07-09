@@ -87,6 +87,10 @@ body {
   height: 100px;
 }
 
+.gw-contacts-bar > .body > .contact * {
+  overflow: hidden;
+}
+
 .gw-contacts-bar > .body > .contact a {
   text-decoration: none;
   margin: auto;
