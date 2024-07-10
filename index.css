@@ -82,6 +82,7 @@
 }
 
 .index-body > .glitterbow > img {
+  min-height: 100vh;
   width: 100%;
   object-fit: cover;
 }
