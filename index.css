@@ -62,10 +62,9 @@
 }
 
 .index-body > .cloud-photo {
-  position: relative;
   width: 100vw;
-  overflow-x: hidden;
-  margin-bottom: -30vw;
+  margin-bottom: -31.3vw;
+  overflow: hidden;
 }
 
 .index-body > .cloud-photo > img {
