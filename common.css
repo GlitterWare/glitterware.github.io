@@ -150,6 +150,61 @@ body {
   }
 }
 
+@keyframes gw-tread {
+  0% {
+    color: #00ff00;
+  }
+  16.7% {
+    color: #0000ff;
+  }
+  33.3% {
+    color: #ff0000;
+  }
+  50% {
+    color: #ffff00;
+  }
+  66.7% {
+    color: #00ffff;
+  }
+  83.3% {
+    color: #ff00ff;
+  }
+  100% {
+    color: #00ff00;
+  }
+}
+
 .gw-bg-tread-anim {
   animation: gw-bg-tread 32s steps(1000, end) infinite;
+}
+
+.gletter-1 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -32.0s;
+}
+
+
+.gletter-2 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -31.6s;
+}
+
+.gletter-3 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -31.2s;
+}
+
+.gletter-4 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -30.8s;
+}
+
+.gletter-5 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -30.4s;
+}
+
+.gletter-6 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -30.0s;
 }
