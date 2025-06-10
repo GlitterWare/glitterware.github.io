@@ -7,6 +7,14 @@ body {
   box-shadow: 0px 1px 4px grey;
 }
 
+.gw-glass-card {
+  background: rgba(254,245,238,0.5) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
 .gw-top-navbar {
   display: flex;
   z-index: 1000;
