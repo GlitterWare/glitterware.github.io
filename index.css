@@ -83,8 +83,22 @@ html {
 
 .index-body > .cloud-photo {
   width: 100vw;
-  margin-bottom: -81.3vw;
+  margin-bottom: -106.3vw;
   overflow: hidden;
+}
+
+.index-body > .cloud-photo > div {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  top: -46vw;
+}
+
+.index-body > .cloud-photo > div > div {
+  width: 50vw;
+  height: 25vw;
+  border-radius: 25px 25px 25px 25px;
 }
 
 .index-body > .cloud-photo > .about-header {
@@ -95,7 +109,7 @@ html {
   text-align: center;
   justify-content: center; /* Horizontally center */
   align-items: center;    /* Vertically center */
-  top: -55vw;
+  top: -80vw;
 }
 
 .index-body > .cloud-photo > .about-arrows {
@@ -106,7 +120,7 @@ html {
   text-align: center;
   justify-content: center; /* Horizontally center */
   align-items: center;    /* Vertically center */
-  top: -67vw;
+  top: -92vw;
 }
 
 .index-body > .cloud-photo > img {
