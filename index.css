@@ -83,8 +83,30 @@ html {
 
 .index-body > .cloud-photo {
   width: 100vw;
-  margin-bottom: -31.3vw;
+  margin-bottom: -81.3vw;
   overflow: hidden;
+}
+
+.index-body > .cloud-photo > .about-header {
+  position: relative;
+  width: 100%;
+  font-size: 10vw;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  justify-content: center; /* Horizontally center */
+  align-items: center;    /* Vertically center */
+  top: -55vw;
+}
+
+.index-body > .cloud-photo > .about-arrows {
+  position: relative;
+  width: 100%;
+  font-size: 10vw;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  justify-content: center; /* Horizontally center */
+  align-items: center;    /* Vertically center */
+  top: -67vw;
 }
 
 .index-body > .cloud-photo > img {

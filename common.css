@@ -215,3 +215,18 @@ body {
   animation: gw-tread 32s steps(1000, end) infinite;
   animation-delay: -30.0s;
 }
+
+.gletter-7 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -29.6s;
+}
+
+.gletter-8 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -29.2s;
+}
+
+.gletter-9 {
+  animation: gw-tread 32s steps(1000, end) infinite;
+  animation-delay: -28.8s;
+}
