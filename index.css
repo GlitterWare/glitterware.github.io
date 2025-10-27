@@ -112,6 +112,17 @@ html {
   top: -80vw;
 }
 
+.index-body > .cloud-photo > .payment-header {
+  position: relative;
+  width: 100%;
+  font-size: 7vw;
+  text-align: center;
+  justify-content: center; /* Horizontally center */
+  align-items: center;    /* Vertically center */
+  top: -74vw;
+  padding-bottom: 6vw;
+}
+
 .index-body > .cloud-photo > .about-arrows {
   position: relative;
   width: 100%;
